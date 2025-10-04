@@ -1,0 +1,23 @@
+{
+    "name": "greys/wc-product-bundles-tests",
+    "description": "PHPUnit testing framework for WooCommerce Product Bundles",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jgreys",
+            "homepage": "https://github.com/jgreys"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "greys/woocommerce-phpunit-framework": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Greys\\WooCommerce\\ProductBundles\\Tests\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
